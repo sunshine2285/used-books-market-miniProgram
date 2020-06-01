@@ -1,0 +1,25 @@
+<!--pages/index/index.wxml-->
+<view>
+	<image
+	 src="/image/page/index_bg.jpg"
+	 class="index-bg"
+	 mode="aspectFill"
+	></image>
+</view>
+
+<view class="item">
+	<view class="item-body">
+		<image src="/image/page/buy.png" class="item-icon"></image>
+		<text>我要买书</text>
+	</view>
+	<image class="right-arrow" src="/image/icon/right-arrow.png"></image>
+</view>
+<view class="subtle-bottom-border"></view>
+<view class="item">
+	<view class="item-body">
+		<image src="/image/page/sell.png" class="item-icon"></image>
+		<text>我要卖书</text>
+	</view>
+	<image class="right-arrow" src="/image/icon/right-arrow.png"></image>
+</view>
+

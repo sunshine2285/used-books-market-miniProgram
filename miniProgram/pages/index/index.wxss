@@ -1,0 +1,34 @@
+/* pages/index/index.wxss */
+.index-bg{
+  width: 100%;
+  height: 650rpx;
+  margin-bottom: 40rpx;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 40rpx;
+}
+
+.item-body{
+  display: flex;
+  align-items: center;
+}
+
+.item-icon{
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 30rpx;
+}
+
+.right-arrow{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.subtle-bottom-border{
+  border-bottom: rgba(225, 225, 225, 0.3) solid 1rpx;
+  margin: 0 70rpx;
+}

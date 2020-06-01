@@ -1,0 +1,85 @@
+/* pages/login/login.wxss */
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.btn {
+  font-size: 30rpx;
+  font-weight: normal;
+}
+
+.primary-btn{
+  margin-top: 40rpx;
+  background-color: #4da84d;
+  color: #fff;
+}
+
+.primary-btn-hover{
+  background-color: #3db13d;
+  color: #fff;
+}
+
+.secondary-btn{
+  margin-top: 30rpx;
+  background-color: #dcdde1;
+  color: #000;
+}
+
+.secondary-btn-hover{
+  background-color: #f5f6fa;
+  color: #000;
+}
+
+.input-placeholder{
+  font-size: 28rpx;
+}
+
+.login-title{
+  font-size: 38rpx;
+  margin-left: 40rpx;
+}
+
+.login-warper{
+  margin: 100rpx 50rpx;
+}
+
+.login-item{
+  padding: 20rpx;
+  margin: 40rpx 20rpx;
+}
+
+.login-item > .login-item-header{
+  display: flex;
+  align-items: center;
+}
+.login-item > .login-item-header > .icon{
+  margin-right: 15rpx;
+}
+.login-item > input{
+  padding: 10rpx;
+  margin: 20rpx 0;
+  font-size: 30rpx;
+  border-bottom: rgba(0, 0, 0, 0.3) solid 1rpx;
+}
+
+.login-item > .forget-pwd{
+  display: inline;
+  padding: 0;
+  font-size: 28rpx;
+  font-weight: normal;
+  color: #4da84d;
+  background-color: #fff;
+}
+
+.login-item > .forget-pwd-hover{
+  background-color: #fff;
+}
+
+.login-item > .forget-pwd:hover{
+  color: #63cd63;
+}
+
+.login-item > .forget-pwd:active{
+  color: #53cd53;
+}

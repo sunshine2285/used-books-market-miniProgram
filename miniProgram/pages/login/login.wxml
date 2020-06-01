@@ -1,0 +1,37 @@
+<!--pages/login/login.wxml-->
+<view class="login-warper">
+	<form bindsubmit="login" bindreset="reset">
+		<view class="login-title">
+			欢迎来到书香墨海
+		</view>
+		<view class="login-item">
+			<view class="login-item-header">
+				<image class="icon" src="/image/icon/user.png">
+				</image>
+				<text>账号</text>
+			</view>
+			<input
+			 type="text"
+       name="user"
+			 placeholder="请输入您的账户"
+			 placeholder-class="input-placeholder"
+			></input>
+		</view>
+		<view class="login-item">
+			<view class="login-item-header">
+				<image class="icon" src="/image/icon/password.png"></image>
+				<text>密码</text>
+			</view>
+			<input name="password" type="password" placeholder="请输入您的密码"></input>
+			<button class="forget-pwd" hover-class="forget-pwd-hover" bindtap="forget_pwd">忘记密码</button>
+		</view>
+		<button
+		 class="btn primary-btn"
+		 hover-class="primary-btn-hover"
+		 form-type="submit"
+		>登录
+		</button>
+		<button class="btn secondary-btn" hover-class="secondary-btn-hover" bindtap="register">没有账号？点击注册</button>
+	</form>
+</view>
+
