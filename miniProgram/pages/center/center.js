@@ -1,4 +1,4 @@
-// pages/login/login.js
+// pages/center/center.js
 Page({
 
   /**
@@ -6,25 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  forget_pwd: function(e){
-    wx.showModal({
-      title: '忘记密码',
-      content: '请发送邮件给管理员！sxmh_OUC@163.com',
-      showCancel: false,
-    })
-  },
-  login: function(e){
-    console.log(e.detail.value);
-    wx.switchTab({
-      url: '/pages/index/index',
-    })
-  },
-  register: function (e) {
-    wx.navigateTo({
-      url: '/pages/register/register',
-    })
   },
 
   /**

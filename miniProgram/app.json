@@ -2,13 +2,30 @@
   "pages": [
     "pages/login/login",
     "pages/index/index",
-    "pages/register/register"
+    "pages/register/register",
+    "pages/center/center"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "书香墨海",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/image/icon/index.png",
+        "selectedIconPath": "/image/icon/index-select.png"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "个人中心",
+        "iconPath": "/image/icon/user-center.png",
+        "selectedIconPath": "/image/icon/user-center-select.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

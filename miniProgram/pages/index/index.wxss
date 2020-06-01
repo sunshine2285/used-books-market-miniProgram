@@ -10,6 +10,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 30rpx 40rpx;
+  transition: ease 0.3s;
+}
+
+.item-hover{
+  background-color: #f4f4f4;
 }
 
 .item-body{
