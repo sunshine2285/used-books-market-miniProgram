@@ -23,6 +23,7 @@ public class User {
     Long id;
     String username;
     String password;
+    String mail;
     String tel;
     String college;
     String major;
