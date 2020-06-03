@@ -1,5 +1,6 @@
 package com.ouc.usedbook.dto;
 
+import com.ouc.usedbook.entity.User;
 import lombok.Data;
 
 /**
@@ -19,4 +20,17 @@ public class RegisterDTO {
     String college;
     String major;
     String year;
+
+    public User toUser(){
+        User user = new User();
+        user.setUsername(this.username);
+        user.setPassword(this.password);
+        user.setMail(this.mail);
+        user.setTel(this.tel);
+        user.setCollege(this.college);
+        user.setMajor(this.major);
+        user.setYear(this.year);
+        return user;
+    }
+
 }

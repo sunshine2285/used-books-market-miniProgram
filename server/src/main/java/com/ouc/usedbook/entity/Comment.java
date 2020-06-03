@@ -26,11 +26,4 @@ public class Comment {
   private long bid;
   private Date date;
   private String content;
-
-  public Comment(CommentDTO commentDTO){
-    this.uid = commentDTO.getUid();
-    this.bid = commentDTO.getBid();
-    this.content = commentDTO.getComment();
-    this.date = new Date(System.currentTimeMillis());
-  }
 }

@@ -1,6 +1,9 @@
 package com.ouc.usedbook.dto;
 
+import com.ouc.usedbook.entity.Comment;
 import lombok.Data;
+
+import java.sql.Date;
 
 /**
  * @author 孙浩杰
@@ -12,5 +15,14 @@ import lombok.Data;
 public class CommentDTO {
     Long uid;
     Long bid;
-    String comment;
+    String content;
+
+    public Comment toComment(){
+        Comment comment = new Comment();
+        comment.setUid(this.uid);
+        comment.setBid(this.bid);
+        comment.setContent(this.content);
+        comment.setDate(new Date(System.currentTimeMillis()));
+        return comment;
+    }
 }

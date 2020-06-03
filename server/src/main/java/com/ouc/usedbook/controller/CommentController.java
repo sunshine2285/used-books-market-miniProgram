@@ -36,7 +36,7 @@ public class CommentController {
     @ApiOperation(value = "留言", notes = "根据二手书的bid和用户uid添加留言", httpMethod = "POST")
     @PostMapping("/add")
     Response add(CommentDTO commentDTO){
-        long cid = commentService.add(new Comment(commentDTO));
+        long cid = commentService.add(commentDTO.toComment());
         return Response.ok(cid);
     }
 }

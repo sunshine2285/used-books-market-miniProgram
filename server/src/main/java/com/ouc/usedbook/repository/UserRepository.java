@@ -2,6 +2,7 @@ package com.ouc.usedbook.repository;
 
 import com.ouc.usedbook.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -12,5 +13,13 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-
+    /**
+     * 通过邮件和密码查找用户
+     *
+     * @param mail     邮件
+     * @param password 密码
+     * @return {@link User}
+     */
+    @Query
+    public User findByMailAndPassword(String mail, String password);
 }
