@@ -1,0 +1,47 @@
+<!--pages/_public/_public.wxml-->
+<!--pages/public/public.wxml-->
+<view class="search-v">
+  <input class="search" bindinput="inputSearch"></input>
+  <button class="search1" bindtap='search'>搜索</button> 
+</view>
+<form>
+<navigator url="/pages/revise/revise">
+  <view class="book-message">
+    <image class="cover" src='/image/page/封面.jpg'></image>
+    <view class="book-detils">
+     <view class="book-name"> <text>C Primer Plus</text></view>
+      <view class="book-author-pub-old">
+        <text>作者：史蒂芬 普拉达</text>
+        <text>出版社：人民邮电出版社</text>
+        <text>新旧程度：八成新</text>
+        <text>备注：可私聊价格</text>
+      </view>
+    </view>
+  </view>
+</navigator>
+
+<view class="book-message">
+  <image class="cover" src='/image/page/封面.jpg'></image>
+  <view class="book-detils">
+    <view class="book-name"> <text>C Primer Plus</text></view>
+    <view class="book-author-pub-old">
+      <text>作者：史蒂芬 普拉达</text>
+      <text>出版社：人民邮电出版社</text>
+      <text>新旧程度：八成新</text>
+      <text>备注：可私聊价格</text>
+    </view>
+  </view>
+</view>
+<view class="book-message">
+  <image class="cover" src='/image/page/封面.jpg'></image>
+  <view class="book-detils">
+    <view class="book-name"> <text>C Primer Plus</text></view>
+    <view class="book-author-pub-old">
+      <text>作者：史蒂芬 普拉达</text>
+      <text>出版社：人民邮电出版社</text>
+      <text>新旧程度：八成新</text>
+      <text>备注：可私聊价格</text>
+    </view>
+  </view>
+</view>
+</form>

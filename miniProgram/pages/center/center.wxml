@@ -1,2 +1,33 @@
 <!--pages/center/center.wxml-->
-<text>pages/center/center.wxml</text>
+<view class="background-photo">
+  <image class="photo-ground"  src='/image/page/背景1.gif'></image>
+</view>
+    <view class="user-item">
+      <image class="user-photo" src='/image/page/头像.jpg'></image>
+      <view class="username"><text>{{username}}</text></view>
+    </view>
+    <view class="conton-item">
+				<text>学院：</text>
+        <view class="text-boder">
+        <text>{{college}}</text>
+        </view>
+    </view>
+    <view class="conton-item">
+				<text>专业：</text>
+        <view class="text-boder">
+        <text>{{major}}</text>
+        </view>
+    </view>
+  <view class="conton-item">
+				<text>年级：</text>
+        <view class="text-boder">
+        <text>{{year}}</text>
+        </view>
+    </view>
+<view class="conton-item">
+				<text>手机号：</text>
+        <view class="text-boder">
+        <text>{{tel}}</text>
+        </view>
+    </view>
+

@@ -1,0 +1,66 @@
+/* pages/revise/revise.wxss */
+.photo-ground{
+  height: 175rpx;
+}
+.con{
+  display: flex;
+  flex-direction: column;
+}
+.user-item{
+  display: flex;
+  align-items: center;
+  }
+.username{
+  margin-left: 40rpx;
+}
+.user-photo{
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 40rpx;
+}
+.other-detils{
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  margin-left: 40rpx;
+  font-size: 25rpx;
+  color: gray;
+}
+.right-arrow{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 100rpx;
+}
+.cover{
+  margin: 40rpx 50rpx 50rpx 50rpx;
+  width: 650rpx;
+}
+.book-name{
+  margin-left: 40rpx;
+}
+.book-author-pub-old{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80rpx;
+  font-size: 30rpx;
+  color: gray;
+}
+.price{
+  margin-left: 40rpx;
+  font-size: 30rpx;
+}
+.Button{
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: gainsboro 1rpx solid;
+  margin-bottom: 50rpx;
+}
+.Button-left{
+  font-size: 20rpx;
+}
+.Button-right{
+  font-size: 20rpx;
+  margin-left: 250rpx;
+}
+

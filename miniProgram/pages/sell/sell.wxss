@@ -1,0 +1,189 @@
+pages/sell/sell.wxss
+.sellbooks{
+  width: 100%;
+  height: calc(100vw * 427 / 1572);
+}
+
+.name{
+  font-size: 12px;
+  margin-left: 40rpx;
+  justify-content: space-between;
+  
+}
+
+._name{
+  font-size: 10px;
+  margin-left: 40rpx;
+  padding: 10rpx 10rpx; 
+}
+
+.subtle-bottom-border{
+  border-bottom: rgba(225, 225, 225, 0.3) solid 1rpx;
+  margin: 0 40rpx;
+}
+
+ 
+.body {
+  background: #f6f6f6;
+}
+ 
+.title {
+  position: relative;
+  top: 60rpx;
+  text-align: center;
+}
+ 
+ 
+button {
+  line-height: 80rpx;
+  width: 80%;
+  height: 80rpx;
+  margin-top: 40rpx;
+  position: relative;
+}
+ 
+page {
+  background: #f6f7f8;
+}
+ 
+.question-form {
+  margin: 25rpx;
+}
+ 
+.question-input-area {
+  background-color: #fff;
+  border: 1rpx solid #f2f2f2;
+  border-radius: 4rpx;
+}
+ 
+.question-title-wrap {
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #ccc;
+  margin: 10rpx 30rpx;
+  padding: 20rpx 0;
+}
+ 
+.question-title {
+  flex: 1;
+}
+ 
+.weui-textarea-counter, .title-input-counter {
+  color: #b3b3b3;
+  font-size: 14px;
+  padding-left: 10rpx;
+}
+ 
+.weui-cell::before, .weui-cells::before, .weui-cell::after, .weui-cells::after {
+  border: none;
+}
+ 
+.question-images-area {
+  padding: 40rpx 0;
+}
+ 
+.question-images-tool {
+  display: flex;
+  align-items: center;
+}
+ 
+.question-images {
+  display: flex;
+  align-items: center;
+  margin-top: 40rpx;
+}
+ 
+.q-image-wrap {
+  width: 31%;
+  margin-right: 10rpx;
+   
+}
+ 
+.q-image {
+  flex: 1;
+  height: 200rpx;
+  width: 100%;
+}
+ 
+.q-image-remover {
+  text-align: center;
+}
+ 
+.weui-uploader__file image {
+  width: 30%;
+  height: 192rpx;
+  padding: 10rpx;
+  margin-bottom: 10rpx;
+}
+ 
+.weui-uploader__bd {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20rpx;
+}
+ 
+.js_file {
+  background: url('https://www.gdzhisheng.top/xqxcz/public/weixin/up.png') no-repeat;
+  width: 160rpx;
+  height: 155rpx;
+}
+ 
+.weui-uploader__file {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+#name{
+  height: 40rpx;
+}
+.inp_1{
+  width:85%;
+  margin:0 auto;
+  background-color:#ffffff;
+   padding:20rpx;
+}
+.inp{
+  padding:20rpx;
+}
+.inp_name{
+  border-bottom:solid #e0dddd 1rpx;
+}
+.label{
+width:30%;display: inline-block;
+}
+.input{
+  width:80%;
+  display: inline-block;
+}
+
+.wx-switch-input{
+    width:78rpx !important;
+    height:44rpx !important;
+    /* background: #50D2C2 !important;
+    border: #50d2c2 !important;  */
+    /* 2018-07-18 重置开关边框颜色 */
+}
+/*白色样式（false的样式）*/
+.wx-switch-input::before{
+    width:76rpx !important;
+    height: 40rpx !important;
+}
+/*绿色样式（true的样式）*/
+.wx-switch-input::after{
+    width: 36rpx !important;
+    height: 40rpx !important;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+.price{
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 40rpx;
+}

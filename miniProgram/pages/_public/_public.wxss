@@ -1,0 +1,31 @@
+/* pages/_public/_public.wxss */
+.cover{
+  margin: 40rpx 40rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+.book-name{
+  margin-left: 40rpx;
+}
+.book-author-pub-old{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80rpx;
+  font-size: 30rpx;
+  color: gray;
+}
+.search-v{
+  display: flex;
+  align-items: center;
+}
+.search{
+  margin-left: 40rpx;
+  border: 1rpx solid black;
+}
+.search1{
+  font-size: 30rpx;
+}
+.book-message{
+  display: flex;
+  align-items: center;
+}

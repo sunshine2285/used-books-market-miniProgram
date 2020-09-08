@@ -1,5 +1,6 @@
 package com.ouc.usedbook.dto;
 
+import com.ouc.usedbook.entity.Usedbook;
 import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -17,6 +18,19 @@ public class UsedbookDTO {
     private String author;
     private String publisher;
     private String recency;
-    private MultipartFile coverimg;
+    private String coverimg;
     private String note;
+
+    public Usedbook toUsedbook(String coverImg) {
+        Usedbook usedbook = new Usedbook();
+        usedbook.setBookname(bookname);
+        usedbook.setPrice(price);
+        usedbook.setAuthor(author);
+        usedbook.setPublisher(publisher);
+        usedbook.setRecency(recency);
+        usedbook.setNote(note);
+        usedbook.setCoverimg(coverImg);
+
+        return usedbook;
+    }
 }

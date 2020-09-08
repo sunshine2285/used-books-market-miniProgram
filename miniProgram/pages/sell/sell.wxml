@@ -1,0 +1,116 @@
+<!--pages/sell/sell.wxml-->
+<!-- <text>pages/sell/sell.wxml</text> -->
+<view>
+  <image 
+    src="/image/page/背景1.gif"
+    class="sellbooks"
+    mode="widthFix"
+    >
+  </image>
+</view>
+
+<form class="uploadBook">
+ 
+<view class="_name">
+  <view>
+    <text>书名</text>
+  </view>
+      <input
+			 type="text"
+       name="name"
+			 placeholder="请输入书名"
+			 placeholder-class="input-placeholder"
+			></input>
+</view>
+
+<view class="subtle-bottom-border"></view>
+
+
+
+<view class="_name">
+  <view>
+    <text>作者</text>
+  </view>
+      <input
+			 type="text"
+       name="author"
+			 placeholder="请输入作者"
+			 placeholder-class="input-placeholder"
+			></input>
+</view>
+
+<view class="subtle-bottom-border"></view>
+
+
+<view class="_name">
+  <view >
+    <text>出版社</text>
+  </view>
+  <input
+			type="text"
+      name="press"
+		  placeholder="请输入出版社"
+			placeholder-class="input-placeholder"
+	></input>
+</view>
+
+<view class="subtle-bottom-border"></view>
+
+  
+<view class="_name">
+<view>
+  <text>新旧程度:</text>
+</view>
+   <input
+			 type="text"
+       name="newold"
+			 placeholder="请输入新旧程度"
+			 placeholder-class="input-placeholder"
+		></input>
+</view>
+
+<view class="subtle-bottom-border"></view>
+
+<view class="_name">
+  <view>
+    <text>备注</text>
+  </view>
+
+  <input
+			 type="detail"
+       name="user"
+			 placeholder="详细信息"
+			 placeholder-class="input-placeholder"
+			></input>
+</view>
+
+<view class="_name"> 
+  <text>售价</text>  
+      <input
+          type="detail"
+          name="price"
+          placeholder="价格"
+          placeholder-class="input-placeholder"
+          ></input>
+  </view>
+  </form>
+
+<view class="subtle-bottom-border"></view>
+<view class="name"> <text>上传图片:</text></view>
+
+<view class="weui-uploader">
+
+  <view class="weui-uploader__bd">
+    <view class="weui-uploader__file">
+        <image class="weui-uploader__img" wx:for="{{imagesList}}" src="{{item}}"></image>
+      </view>
+      <view class="weui-uploader__input-box">
+        <view class="weui-uploader__input js_file" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" multiple="" bindtap='uploader' name="images"></view>
+      </view>
+    </view>
+  </view>
+
+  
+
+  <button type='primary' bindtap='submit'>确认提交</button>
+

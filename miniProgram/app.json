@@ -1,9 +1,18 @@
 {
   "pages": [
     "pages/login/login",
-    "pages/index/index",
+    "pages/help/help",
+    "pages/person/person",
+    "pages/_public/_public",
     "pages/register/register",
-    "pages/center/center"
+    "pages/index/index",
+    "pages/center/center",
+    "pages/messageBoard/messageBoard",
+    "pages/details/details",
+    "pages/revise/revise",
+    "pages/public/public",
+    "pages/revisebook/revisebook",
+    "pages/updatacenter/updatacenter"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,7 +29,7 @@
         "selectedIconPath": "/image/icon/index-select.png"
       },
       {
-        "pagePath": "pages/center/center",
+        "pagePath": "pages/person/person",
         "text": "个人中心",
         "iconPath": "/image/icon/user-center.png",
         "selectedIconPath": "/image/icon/user-center-select.png"

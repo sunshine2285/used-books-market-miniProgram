@@ -1,0 +1,11 @@
+  <view class="title">
+      <text>请留下您宝贵的意见：</text>
+  </view>
+  <view class="Submit">
+    <form bindsubmit="evaSubmit">
+          <textarea name="evaContent" maxlength="500" value="{{evaContent}}" class="weui-textarea" placeholder="填写内容"bindblur="charChange" /> 
+    </form>
+  </view>
+  <view class="Button">        
+          <button formType="submit" disabled="{{subdisabled}}" class="weui-btn mini-btn" type="primary" size="mini">提交</button>
+  </view> 

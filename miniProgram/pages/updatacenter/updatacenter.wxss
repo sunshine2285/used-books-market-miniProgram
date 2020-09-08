@@ -1,0 +1,36 @@
+/* pages/updatacenter/updatacenter.wxss */
+.btn {
+  font-size: 30rpx;
+  font-weight: normal;
+}
+
+.primary-btn{
+  margin-top: 20rpx;
+  background-color:#3db13d;
+  color: #fff;
+}
+
+
+.input-placeholder{
+  font-size: 28rpx;
+}
+
+.login-title{
+  font-size: 38rpx;
+  margin: 0rpx 150rpx;
+}
+
+.login-warper{
+  margin: 100rpx 50rpx;
+}
+
+.login-item{
+  padding: 10rpx;
+  margin: 40rpx 20rpx;
+}
+
+.login-item > .login-item-header{
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}

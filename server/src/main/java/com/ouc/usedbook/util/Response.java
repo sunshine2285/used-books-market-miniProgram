@@ -31,6 +31,10 @@ public class Response {
         this.data = data;
     }
 
+    public static Response ok(String msg, Object data){
+        return new Response(OK, msg, data);
+    }
+
     public static Response ok(Object data){
         return new Response(OK, "success", data);
     }

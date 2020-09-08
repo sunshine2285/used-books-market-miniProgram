@@ -30,6 +30,7 @@ public class UserRepositoryTest {
         user.setCollege("信息学院");
         user.setMajor("计算机");
         user.setYear("2018");
+        user.setMail("sunshine2285@163.com");
         System.out.println(userRepository.save(user));
     }
 }

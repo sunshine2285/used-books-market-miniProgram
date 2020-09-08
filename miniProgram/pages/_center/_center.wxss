@@ -1,0 +1,35 @@
+/* pages/center/center.wxss */
+.photo-ground{
+  height: 175rpx;
+}
+.user-item{
+  display: flex;
+  align-items: center;
+}
+.username{
+  margin-left: 80rpx;
+}
+.user-photo{
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 40rpx;
+}
+.conton-item{
+  font-size: 30rpx;
+  color: black;
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+}
+.conton-item>.text-boder{
+  margin-top: 20rpx;
+  align-items: center;
+  font-size: 30rpx;
+  color: gray;
+}
+.bt{
+  margin-top: 80rpx;
+  margin-left: 40rpx;
+  font-size: 20rpx;
+  display: flex;
+  align-items: center;
+}

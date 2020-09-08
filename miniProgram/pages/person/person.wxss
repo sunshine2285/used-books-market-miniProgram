@@ -1,0 +1,41 @@
+/* pages/person/person.wxss */
+.photo-ground{
+  height: 175rpx;
+}
+.user-item{
+  display: flex;
+  align-items: center;
+}
+.username{
+  margin-left: 80rpx;
+}
+.user-photo{
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 40rpx;
+}
+.conton-item{
+  font-size: 30rpx;
+  color: black;
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+}
+.conton-item>.text-boder{
+  margin-top: 20rpx;
+  align-items: center;
+  font-size: 30rpx;
+  color: gray;
+}
+
+.style{
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 40rpx;
+}
+
+.subtle-bottom-border{
+  border-bottom: rgba(225, 225, 225, 0.3) solid 5rpx;
+  margin: 0 40rpx;
+}

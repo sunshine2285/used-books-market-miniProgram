@@ -31,7 +31,9 @@
 		 form-type="submit"
 		>登录
 		</button>
+		<navigator url="/pages/register/register">
 		<button class="btn secondary-btn" hover-class="secondary-btn-hover" bindtap="register">没有账号？点击注册</button>
+		</navigator>
 	</form>
 </view>
 

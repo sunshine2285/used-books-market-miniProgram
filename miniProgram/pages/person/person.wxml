@@ -1,0 +1,42 @@
+<!--pages/person/person.wxml-->
+<view class="background-photo">
+  <image class="photo-ground"  src='/image/page/背景1.gif'></image>
+</view>
+<view class="user-item">
+  <image class="user-photo" src='/image/page/头像.jpg'></image>
+  <view class="username"><text>I am here</text></view>
+</view>
+
+<navigator url="/pages/center/center">
+<view class="style">
+个人信息
+</view> 
+<view class="subtle-bottom-border"></view>
+</navigator>
+
+<navigator url="/pages/_public/_public">
+<view class="style">
+发布内容
+</view>
+<view class="subtle-bottom-border"></view>
+</navigator>
+
+<navigator url="/pages/help/help">
+<view class="style">
+帮助中心
+</view>
+<view class="subtle-bottom-border"></view>
+</navigator>
+
+<navigator url="/pages/messageBoard/messageBoard">
+<view class="style">
+留言反馈
+</view>
+<view class="subtle-bottom-border"></view>
+</navigator>
+<navigator url="/pages/_center/_center">
+<view class="style">
+修改信息
+</view>
+<view class="subtle-bottom-border"></view>
+</navigator>

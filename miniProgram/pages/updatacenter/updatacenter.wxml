@@ -1,0 +1,57 @@
+
+<view class="login-warper">
+  <view class="login-title">
+        请输入修改的信息：
+      </view>
+	<form bindsubmit="login" bindreset="reset">
+		
+    <view class="login-item">
+			<view class="login-item-header">
+				<text>用户名：</text>
+			  <input name="user" type="text" placeholder="请输入昵称"></input>
+		  </view>
+    </view>
+    <view class="login-item">
+			<view class="login-item-header">
+				<text>账号：</text>
+			  <input name="email" type="email" placeholder="请输入您的邮箱"></input>
+		  </view>
+    </view>
+		<view class="login-item">
+			<view class="login-item-header">
+				<text>密码：</text>
+			  <input name="password" type="password" placeholder="请输入您的密码"></input>
+		  </view>
+    </view>
+    	<view class="login-item">
+			<view class="login-item-header">
+				<text>学院：</text>
+			  <input name="collage" type="text" placeholder="请输入您的学院"></input>
+		  </view>
+    </view>
+    <view class="login-item">
+			<view class="login-item-header">
+				<text>专业：</text>
+			  <input name="major" type="text" placeholder="请输入您的专业"></input>
+		  </view>
+    </view>
+    <view class="login-item">
+			<view class="login-item-header">
+				<text>年级：</text>
+			  <input name="grade" type="text" placeholder="请输入您的年级"></input>
+		  </view>
+    </view>
+    <view class="login-item">
+			<view class="login-item-header">
+				<text>电话：</text>
+			  <input name="tel" type="String" placeholder="请输入您的电话"></input>
+		  </view>
+    </view>
+		<button
+		 class="btn primary-btn"
+		 hover-class="primary-btn-hover"
+		 form-type="submit"
+		>提交
+		</button>
+	</form>
+</view>

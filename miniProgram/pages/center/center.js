@@ -1,18 +1,35 @@
 // pages/center/center.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    college: '',
+    mail: '',
+    major: '',
+    password: '',
+    tel: '',
+    username:'',
+    year: ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var th=this;
+    let data = app.globalData.userInfo
+    th.setData({
+      college: data.college,
+      mail: data.mail,
+      major: data.major,
+      password: data.password,
+      tel: data.tel,
+      username: data.username,
+      year: data.year
+      })
   },
 
   /**

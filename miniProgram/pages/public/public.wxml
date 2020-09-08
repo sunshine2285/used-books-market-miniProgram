@@ -1,0 +1,20 @@
+<!--pages/public/public.wxml-->
+<view class="search-v">
+  <input class="search" bindinput="inputSearch"></input>
+  <button class="search1" bindtap='search'>搜索</button> 
+</view>
+
+<block wx:for="{{list}}" wx:for-index="idx" wx:for-item="itName">
+  <view class="book-message">
+    <image class="cover" src='/image/page/封面.jpg'></image>
+    <view class="book-detils">
+     <view class="book-name"> <text>{{itName.bookname}}</text></view>
+      <view class="book-author-pub-old">
+        <text>作者：{{itName.author}}</text>
+        <text>出版社：{{itName.publisher}}</text>
+        <text>新旧程度：{{itName.recency}}</text>
+        <text>备注：{{itName.note}}</text>
+      </view>
+    </view>
+  </view>
+  </block>

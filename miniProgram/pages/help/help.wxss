@@ -1,0 +1,4 @@
+/* pages/help/help.wxss */
+.center{
+  align-content: center;
+}

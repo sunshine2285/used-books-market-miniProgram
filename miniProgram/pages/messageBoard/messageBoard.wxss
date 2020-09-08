@@ -1,0 +1,14 @@
+/* pages/messageBoard/messageBoard.wxss */
+.title{
+  margin-top: 50rpx;
+  font-size: 40rpx;
+}
+.Submit{
+  margin: 50rpx 50rpx;
+  line-height:60rpx;
+  border: gray 1rpx solid;
+}
+.Button{
+  display: flex;
+  align-items:center;
+}

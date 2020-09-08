@@ -1,0 +1,4 @@
+<!--pages/help/help.wxml-->
+<view >
+<text class="center">本小程序旨在为校园的二手书交易提供一个信息展示平台，二手书的交易不在本平台进行，需要自行在发布者的联系方式一栏进行联系。</text>
+</view>

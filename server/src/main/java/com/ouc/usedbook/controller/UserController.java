@@ -28,7 +28,7 @@ public class UserController {
 
     @ApiOperation(value = "用户登录", notes = "用户通过账号和密码登录", httpMethod = "POST")
     @PostMapping("/login")
-    public Response login(LoginDTO loginDTO) {
+    public Response login(@RequestBody LoginDTO loginDTO) {
         User user = userService.login(loginDTO.getMail(), loginDTO.getPassword());
         if (null == user) {
             return Response.forbidden(null);
@@ -39,7 +39,7 @@ public class UserController {
 
     @ApiOperation(value = "用户注册", notes = "用户通过用户信息注册账号", httpMethod = "POST")
     @PostMapping("/register")
-    public Response register(RegisterDTO registerDTO) {
+    public Response register(@RequestBody RegisterDTO registerDTO) {
         User user = userService.add(registerDTO.toUser());
         if (null == user){
             return Response.forbidden("wrong info about register");
@@ -48,10 +48,16 @@ public class UserController {
         }
     }
 
-    @ApiOperation(value = "用户信息", notes = "根据用户id获取用户相关信息", httpMethod = "GET")
+    @ApiOperation(value = "获取用户信息", notes = "根据用户id获取用户相关信息", httpMethod = "GET")
     @GetMapping("/{uid}")
     public Response userInfo(@PathVariable Long uid) {
         Optional<User> user = userService.get(uid);
         return user.map(Response::ok).orElseGet(() -> Response.notfound(uid));
+    }
+
+    @ApiOperation(value = "更新用户信息[未实现]", notes = "根据用户id修改用户相关信息", httpMethod = "POST")
+    @PostMapping("/{uid}")
+    public Response update(@PathVariable String uid, @RequestBody RegisterDTO registerDTO){
+        return Response.ok(null);
     }
 }

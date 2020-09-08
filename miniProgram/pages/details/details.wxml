@@ -1,0 +1,50 @@
+<!--pages/details/details.wxml-->
+<view class="background-photo">
+  <image class="photo-ground"  src='/image/page/背景1.gif'></image>
+</view>
+
+  <view class="user-item">
+        <image class="user-photo" src='/image/page/头像.jpg'></image>
+        <view class="con">
+            <view class="username"><text>I am here</text></view>
+            <view class="other-detils">
+                <text>水产学院 海洋资源与环境</text>
+                <image class="right-arrow" src="/image/icon/right-arrow.png"></image>
+            </view>
+        </view>
+  </view>
+  <image class="cover" src='/image/page/封面.jpg'></image>
+  <view class="book-detils">
+    <view class="book-name"> <text>C Primer Plus</text></view>
+    <view class="book-author-pub-old">
+      <text>作者：史蒂芬 普拉达</text>
+      <text>出版社：人民邮电出版社</text>
+      <text>新旧程度：八成新</text>
+      <text>备注：可私聊价格</text>
+    </view>
+  </view>
+
+<view class="price">
+  <text>售价：10元</text>
+  <view>
+        <navigator url="/pages/center/center">
+        <view class="Button-right">        
+          <button formType="submit" disabled="{{subdisabled}}"  type="primary" size="mini">我想要
+          </button>
+        </view>
+        </navigator>
+  </view>
+</view>
+
+<view class="message">
+  <text>全部留言</text>
+    <form bindsubmit="mymessage">
+      <view class="user-item-test">
+          <view class="head-photo">
+            <image class="user-photo-test" src='/image/page/头像.jpg'></image>
+            <text>I am here</text>
+          </view>
+            <input name="comment" type="text" placeholder=""></input>   
+      </view>
+    </form>
+</view>
